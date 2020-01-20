@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Overpass', sans-serif;
+  color: #5b5656;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 2.5rem;
+  color: #7fcd91;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Numans', sans-serif;
+  color: #4d4646;
+}
+
+h3 {
+  font-family: 'Lexend Exa', sans-serif;
+  color: #4d4646;
+}
+
+a {
+  color: #f5eaea;
+  font-family: 'Numans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7fcd91;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #7fcd91;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.subtitle {
+  color: #f5eaea;
+  font-size: 1.1rem;
+  font-family: 'Lexend Exa', sans-serif;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+.top-container {
+  background-color: #4d4646;
+  position: relative;
+  padding-top: 100px;
+  height: 600px;
+  margin: 0 auto 0 auto;
+}
+
+.middle-container {
+  background-color: #f5eaea;
+}
+
+.bottom-container {
+  background-color: #5b5656;
+  color: #7fcd91;
+  padding: 30px 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 50%;
+}
+
+.mountain {
+  position: absolute;
+  height: auto;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.profile {
+  padding-top: 100px;
+}
+
+.profilepic {
+  border-radius: 50%;
+}
+
+.intro {
+  width: 40%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.skills {
+  padding-bottom: 20px;
+}
+
+.skill-row-left {
+  width: 60%;
+  margin: 100px auto 140px auto;
+  text-align: left;
+}
+
+.skill-row-right {
+  width: 60%;
+  margin: 100px auto 40px auto;
+  text-align: right;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.monitor-img {
+  width: 20%;
+  float: right;
+  padding-left: 30px;
+}
+
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.contact-btn {
+	box-shadow: 0px 10px 14px -7px #545955;
+	background:linear-gradient(to bottom, #7fcd91 5%, #56a366 100%);
+	background-color:#7fcd91;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b5656;
+  margin: 30px auto 20px;
+}
+.contact-btn:hover {
+	background:linear-gradient(to bottom, #56a366 5%, #7fcd91 100%);
+	background-color:#56a366;
+  color:#f3f3f3;
+  box-shadow: 0px 3px 10px -3px #545955;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+    margin: 10px 30px;
+}
+
+.credits {
+  font-size: 0.7rem;
+}
